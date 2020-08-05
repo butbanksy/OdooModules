@@ -8,6 +8,8 @@
                     <span t-field="book.name"/>
                     <span t-field="book.date_published"/>
                     <span t-field="book.publisher_id"/>
+                    <img   t-attf-src="data:image/*;base64,{{book.image}}" style="border-radius: 50%"/>
+/>
                 </div>
             </t>
         </div>
